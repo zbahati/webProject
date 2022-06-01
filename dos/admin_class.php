@@ -174,7 +174,7 @@ Class Action {
 			foreach ($_POST as $key => $value) {
 				if($key != 'password' && !is_numeric($key))
 					$_SESSION['login_'.$key] = $value;
-			}
+			} 
 			if($_FILES['img']['tmp_name'] != '')
 			$_SESSION['login_avatar'] = $fname;
 			return 1;
