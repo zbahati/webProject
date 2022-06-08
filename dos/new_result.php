@@ -110,8 +110,8 @@
 	$('#add_mark').click(function(){
 		var subject_id = $('#subject_id').val()
 		var mark = $('#mark').val()
-		if(subject_id == '' && mark == ''){
-			alert_toast("Please select subject & enter a mark before adding to list.","error");
+		if((subject_id == '' && mark == '') || (mark>100) ){
+			alert_toast("Please select subject  & enter a mark should be less or 100 before adding to list.","error");
 			return false;
 		}
 		var sData = $('#subject_id option[value="'+subject_id+'"]').attr('data-json')
