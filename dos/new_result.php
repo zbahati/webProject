@@ -42,7 +42,7 @@
 	            </div>
 	            <div class="form-group col-sm-3">
 	                <label for="" class="control-label">Mark</label>
-	                <input type="number" class="form-control form-control-sm text-right number" id="mark" min="0" max="10">
+	                <input type="number" class="form-control form-control-sm text-right number" id="mark" min="1" max="100">
 	            </div>
 	            <button class="btn btn-sm btn-primary bg-gradient-primary" type="button" id="add_mark">Add</button>
             </div>
