@@ -307,7 +307,7 @@
                     $password=$_POST['parentcode'];
 
                     
-                $result= "SELECT * FROM users where username='$uname' and password=MD5('$password') and type=2";
+                $result= "SELECT * FROM users where username='$uname' and password='$password' and type=2";
                 $sql=$this->conn->query($result);
                 if($row= mysqli_fetch_array($sql)){
                   SESSION_START();
