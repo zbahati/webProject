@@ -37,7 +37,7 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Parents </h6>
                         <a class="collapse-item" href="addparent.php">Add New</a>
-                        <a class="collapse-item" href="parent_list.html">List</a>
+                        <a class="collapse-item" href="parent_list.php">List</a>
                     </div>
                 </div>
             </li>
