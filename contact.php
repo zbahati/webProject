@@ -31,10 +31,10 @@
 
 <body>
     <!-- Navbar Start -->
-    <?php 
+    <?php
     include('include/header.php')
 
-    
+
     ?>
 
     <!-- Navbar End -->
@@ -45,9 +45,18 @@
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
             <h3 class="display-3 font-weight-bold text-white">Contact Us</h3>
             <div class="d-inline-flex text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <p class="m-0"><a class="text-white" href="">PRINCIPAL</a></p>
+
+                <p class="pl-2">Contact</p>
                 <p class="m-0 px-2">/</p>
-                <p class="m-0">Contact Us</p>
+
+                <p class="m-0">0788758378</p>
+
+            </div>
+            <div class="d-inline-flex text-white">
+                <p class="m-0"><a class="text-white" href="">DOS</a></p>
+                <p class="m-0 px-2">Contact/</p>
+                <p class="m-0">0788733103</p>
             </div>
         </div>
     </div>
@@ -55,156 +64,16 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Get In Touch</span></p>
-                <h1 class="mb-4">Contact Us For Any Query</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-7 mb-5">
-                    <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-5 mb-5">
-                    <p>Labore sea amet kasd diam justo amet ut vero justo. Ipsum ut et kasd duo sit, ipsum sea et erat est dolore, magna ipsum et magna elitr. Accusam accusam lorem magna, eos et sed eirmod dolor est eirmod eirmod amet.</p>
-                    <div class="d-flex">
-                        <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
-                        <div class="pl-3">
-                            <h5>Address</h5>
-                            <p>123 Street, New York, USA</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
-                        <div class="pl-3">
-                            <h5>Email</h5>
-                            <p>info@example.com</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <i class="fa fa-phone-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
-                        <div class="pl-3">
-                            <h5>Phone</h5>
-                            <p>+012 345 67890</p>
-                        </div>
-                    </div>
-                    <div class="d-flex">
-                        <i class="far fa-clock d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
-                        <div class="pl-3">
-                            <h5>Opening Hours</h5>
-                            <strong>Sunday - Friday:</strong>
-                            <p class="m-0">08:00 AM - 05:00 PM </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+
     <!-- Contact End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
-                    <i class="flaticon-043-teddy-bear"></i>
-                    <span class="text-white">KidKinder</span>
-                </a>
-                <p>Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.</p>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Get In Touch</h3>
-                <div class="d-flex">
-                    <h4 class="fa fa-map-marker-alt text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white">Address</h5>
-                        <p>123 Street, New York, USA</p>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <h4 class="fa fa-envelope text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white">Email</h5>
-                        <p>info@example.com</p>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <h4 class="fa fa-phone-alt text-primary"></h4>
-                    <div class="pl-3">
-                        <h5 class="text-white">Phone</h5>
-                        <p>+012 345 67890</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Quick Links</h3>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Classes</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Teachers</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Blog</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h3 class="text-primary mb-4">Newsletter</h3>
-                <form action="">
-                    <div class="form-group">
-                        <input type="text" class="form-control border-0 py-4" placeholder="Your Name" required="required" />
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control border-0 py-4" placeholder="Your Email"
-                            required="required" />
-                    </div>
-                    <div>
-                        <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
-            <p class="m-0 text-center text-white">
-                &copy; <a class="text-primary font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed
-                by
-                <a class="text-primary font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
-            </p>
-        </div>
-    </div>
+
+
+
+
     <!-- Footer End -->
 
 
