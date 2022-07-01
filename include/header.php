@@ -4,9 +4,11 @@
             <img src="img/gass-log0.jpg" height="60px" width="70px" alt="gas-logo">
                 <span class="text-primary">G.A.S.S</span>
             </a>
+
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav font-weight-bold mx-auto py-0">
                     <a href="index.php" class="nav-item nav-link active">Home</a>
