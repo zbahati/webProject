@@ -29,6 +29,7 @@ if($_SESSION['parent']){
     <!-- Custom styles for this template-->
     <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
+
 </head>
 
 <body id="page-top">
@@ -36,7 +37,7 @@ if($_SESSION['parent']){
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        
+
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -53,41 +54,41 @@ if($_SESSION['parent']){
 
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link " href="#" 
+                            <a class="nav-link " href="#"
                             aria-expanded="false">
-                          Chat
+                          CHAT
                         </a>
                         </li>
                         <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link " href="request.php" 
+                            <a class="nav-link " href="request.php"
                             aria-expanded="false">
                             REQUEST
                             <!-- Counter - Alerts -->
-                           
+
                         </a>
                         <span class="badge badge-danger badge-counter">Approved</span>
                         </li>
                         <li class="nav-item dropdown no-arrow mx-1">
-                            <a class="nav-link navbar-light " href="#" 
+                            <a class="nav-link navbar-light " href="#"
                             aria-expanded="false">
-                          
+
                             MESSAGE
                             <!-- Counter - Alerts -->
-                           
+
                              </a>
                              <span class="badge badge-danger badge-counter"><?php echo $conn->query("SELECT * FROM notifications where status=1")->num_rows; ?>+</span>
                         </li>
                         <li class="nav-item  mx-1">
-                            <a class="nav-link bg-success" href="../../dos/" 
+                            <a class="nav-link "  href="../../dos/"
                             aria-expanded="false">
-                            View Result
+                            VIEW RESULT
                             <!-- Counter - Alerts -->
-                            
+
                              </a>
                              <span class="badge badge-danger badge-counter">published</span>
                         </li>
 
-                        
+
                         <li class="nav-item dropdown no-arrow d-sm-none">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -124,7 +125,7 @@ if($_SESSION['parent']){
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                               
+
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
@@ -136,20 +137,20 @@ if($_SESSION['parent']){
                     </ul>
 
                 </nav>
-                <!-- End of Topbar -->
+                    <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
                     <h1 class="h3 mb-1 text-gray-800">SCHOOOL NEW UPDATES</h1>
-                    
+
 
                     <!-- Content Row -->
-                    
+
 
                     <?php
-                    
+
                     $model=new Model();
                     $rows=$model->fetch_message();
                     $i=1;
@@ -168,7 +169,7 @@ if($_SESSION['parent']){
                                     echo $row['description'];
 
                                     ?>
-                                   
+
                                 </div>
                             </div>
 

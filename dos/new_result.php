@@ -11,8 +11,8 @@
             <div class="form-group">
                 <label for="" class="control-label">Student</label>
                 <select name="student_id" id="student_id" class="form-control select2 select2-sm" required>
-                  <option></option> 
-                  <?php 
+                  <option></option>
+                  <?php
                         $classes = $conn->query("SELECT s.*,concat(c.level,'-',c.section) as class,concat(firstname,' ',middlename,' ',lastname) as name FROM students s inner join classes c on c.id = s.class_id order by concat(firstname,' ',middlename,' ',lastname) asc ");
                         while($row = $classes->fetch_array()):
                   ?>
@@ -31,8 +31,8 @@
             	<div class="form-group col-sm-4">
 	                <label for="" class="control-label">Subject</label>
 	                <select name="" id="subject_id" class="form-control select2 select2-sm input-sm">
-	                  <option></option> 
-	                  <?php 
+	                  <option></option>
+	                  <?php
 	                        $classes = $conn->query("SELECT * FROM subjects order by subject asc ");
 	                        while($row = $classes->fetch_array()):
 	                  ?>
@@ -60,7 +60,7 @@
             	</thead>
             	<tbody>
             		<?php if(isset($id)): ?>
-            		<?php 
+            		<?php
             			$items=$conn->query("SELECT r.*,s.subject_code,s.subject,s.id as sid FROM result_items r inner join subjects s on s.id = r.subject_id where result_id = $id order by s.subject_code asc");
             			while($row = $items->fetch_assoc()):
             		?>

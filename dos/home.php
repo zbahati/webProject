@@ -28,7 +28,7 @@
           </div>
           <div class="col-12 col-sm-6 col-md-4">
             <div class="info-box">
-              <span class="info-box-icon bg-primary elevation-1"><i class="fas fa-book"></i></span>
+              <span class="info-box-icon bg-primary"><i class="fas fa-book"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Total Subject</span>
@@ -48,5 +48,5 @@
           	</div>
           </div>
       </div>
-          
+
 <?php endif; ?>

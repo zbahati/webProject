@@ -45,7 +45,7 @@
 		                        </button>
 	                      </div>
 						</td>
-					</tr>	
+					</tr>
 				<?php endwhile; ?>
 				</tbody>
 			</table>

@@ -7,7 +7,7 @@ Class Action {
 	public function __construct() {
 		ob_start();
    	include 'db_connect.php';
-    
+
     $this->db = $conn;
 	}
 	function __destruct() {
@@ -27,8 +27,7 @@ Class Action {
 				return 1;
 		}
 
-		
-		
+
 		else{
 			return 2;
 		}
@@ -174,7 +173,7 @@ Class Action {
 			foreach ($_POST as $key => $value) {
 				if($key != 'password' && !is_numeric($key))
 					$_SESSION['login_'.$key] = $value;
-			} 
+			}
 			if($_FILES['img']['tmp_name'] != '')
 			$_SESSION['login_avatar'] = $fname;
 			return 1;
@@ -230,7 +229,7 @@ Class Action {
 			$protocol = strtolower(substr($_SERVER["SERVER_PROTOCOL"],0,5))=='https'?'https':'http';
 			$hostName = $_SERVER['HTTP_HOST'];
 			$path =explode('/',$_SERVER['PHP_SELF']);
-			$currentPath = '/'.$path[1]; 
+			$currentPath = '/'.$path[1];
 			if($move){
 				return $protocol.'://'.$hostName.$currentPath.'/assets/uploads/'.$fname;
 			}
